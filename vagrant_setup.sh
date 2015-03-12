@@ -30,9 +30,6 @@ sudo pip install Django
 echo 'Installing MySQL-python'
 sudo apt-get install -y python-mysqldb
 
-#echo 'Installing git'
-#sudo apt-get install -y git
-
 echo 'Setting env var for Django settings'
 echo "export DJANGO_SETTINGS_MODULE=mysite.settings" >> ~/.profilevagran
 
