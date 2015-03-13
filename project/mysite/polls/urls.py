@@ -4,7 +4,7 @@ from polls import views
 urlpatterns = patterns('',
                        # ex: /polls/
                        url(r'^$', views.index, name='index'),
-                       # ex: /polls/5/
+                       # the 'name' value as called by the {% url %} template tag | ex: /polls/5/
                        url(r'^(?P<question_id>\d+)/$', views.detail, name='detail'),
                        # ex: /polls/5/results/
                        url(r'^(?P<question_id>\d+)/results/$', views.results, name='results'),
